@@ -70,3 +70,93 @@ input:active {
 .button:active {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 750px) {
+    
+    img {
+        width: 533px;
+        height: 324px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        color: #FFF;
+    }
+    
+   input {
+        font-size: 35px;
+        font-weight: 500;
+        color: #FFF;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.25);
+        width: 180px;
+        padding-left: 20px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .button {
+        background: #AEC346;
+        box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+        border-radius: 20px;
+        width: 220px;
+        height: 55px;
+        font-weight: 700;
+        font-size: 30px;
+        align-items: center;
+        color: #FFF;
+        cursor: pointer;
+        margin-top: 20px;
+        border: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        img {
+        width: 343px;
+        height: 150px;
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 27px;
+        color: #FFF;
+    }
+
+    input {
+        font-size: 30px;
+        font-weight: 500;
+        color: #FFF;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(255, 255, 255, 0.25);
+        width: 150px;
+        padding-left: 20px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .button {
+        background: #AEC346;
+        box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+        border-radius: 20px;
+        width: 160px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 30px;
+        align-items: center;
+        color: #FFF;
+        cursor: pointer;
+        margin-top: 40px;
+        border: none;
+    }
+
+    }
+}
