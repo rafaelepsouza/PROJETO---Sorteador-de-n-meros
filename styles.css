@@ -154,8 +154,9 @@ input:active {
         align-items: center;
         color: #FFF;
         cursor: pointer;
-        margin-top: 40px;
+        margin-top: 20px;
         border: none;
+        margin-bottom: 40px;
     }
 
     }
