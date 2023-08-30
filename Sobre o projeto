@@ -1,4 +1,6 @@
-Projeto Sorteador de números. Uma aplicação feita com as tecnologias HTML, CSS e JavaScript.
+Projeto Sorteador de números.
+
+Uma aplicação feita com as tecnologias HTML, CSS e JavaScript.
 
 Primeiro o usuário coloca um número em cada input, e clicando no botão é gerado um número aleatório através do Math Random, e com um alert esse número é exibido na tela para o usuário.
 
